@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/appoinment.css">
+        <title>Apppoinment</title>
+    </head>
+    <body>
+        <header>
+            <h1>SUGA HOSTIPAL</h1>
+            <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="doctor.html">Find a Doctor</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </nav>
+        </header>
+        
+        <h2>Make an Appointment</h2>
+    
+        <div class="appoiment-form">
+            <form>
+                <div class="form-control">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="name" placeholder="enter in caps">
+                </div>
+                <div class="form-control">
+                    <label for="phno"> Phone No:</label>
+                    <input type="number" id="phno" name=" phno" pattern="[+][9][1]\d{10}" placeholder="+91XXXXXXXXXX" required class="ph">
+                </div>
+                
+                <div class="form-control">
+                    <label for="age"> Age:</label>
+                    <input type="number" class="ag">
+                </div>
+                <div class="form-control">
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" class="date">
+                </div>
+                <button  >Submit</button>
+              </form>
+        </div>
+    </body>
+</html>
